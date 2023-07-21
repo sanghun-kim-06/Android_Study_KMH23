@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하시겠습니까?"
+        android:textSize="20dp"
+        android:id="@+id/Text1"/>
+
+    <CheckBox
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작함"
+        android:id="@+id/ChkAgree"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아래 버튼 누르기 ㄱㄱ"
+        android:textSize="20dp"
+        android:id="@+id/Text2"
+        android:visibility="invisible"/>
+
+    <RadioGroup
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rgroup1"
+        android:visibility="invisible">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RdoImg1"
+            android:text="아이패드 바탕화면"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RdoImg2"
+            android:text="정신없는"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RdoImg3"
+            android:text="흩어지는인간성"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택완료"
+        android:id="@+id/BtnOK"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:id="@+id/ImgCyberfunk"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="렐러티브 레이아웃 연습"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image1"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/image1"
+        android:hint="여기에 입력하십시오"/>
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Edit1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_toLeftOf="@+id/Btn1"
+        android:layout_alignBaseline="@+id/Btn1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="렐러티브 레이아웃 연습"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/Btn1"/>
+
+</RelativeLayout>

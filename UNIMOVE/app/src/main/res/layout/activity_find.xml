@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape2"
+            android:paddingLeft="20dp"
+            android:paddingBottom="30dp"
+            android:paddingRight="100dp"
+            android:paddingTop="20dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backedit"
+                android:padding="8dp"
+                android:hint="출발지 입력"
+                android:textSize="15sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backedit"
+                android:padding="8dp"
+                android:hint="도착지 입력"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

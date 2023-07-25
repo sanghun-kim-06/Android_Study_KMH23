@@ -3,22 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/unimove"
-        android:label="@string/app_name"
+        android:icon="@drawable/bookmak"
+        android:label="김상훈도서관"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UNIMOVE"
+        android:theme="@style/Theme.BookMarket"
         tools:targetApi="31">
-        <activity
-            android:name=".FindActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
         <activity
             android:name=".IntroActivity"
             android:exported="true">
@@ -28,7 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".BookProActivity"
+            android:theme="@style/Theme.BookMarket"
+            android:exported="false" />
+        <activity
+            android:name=".BookActivity"
+            android:theme="@style/Theme.BookMarket"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppBaseTheme"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
